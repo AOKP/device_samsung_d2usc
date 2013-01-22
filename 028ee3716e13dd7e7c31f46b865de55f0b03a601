@@ -1,0 +1,10 @@
+Change-Id: I028ee3716e13dd7e7c31f46b865de55f0b03a601
+Code-Review+2: Gergely Szell (sethyx) <sethyx@gmail.com>
+Verified+1: Gergely Szell (sethyx) <sethyx@gmail.com>
+Code-Review+1: Brandon McAnsh <bmc08gt.teamb00sted@gmail.com>
+Verified+1: Brandon McAnsh <bmc08gt.teamb00sted@gmail.com>
+Submitted-by: Gergely Szell (sethyx) <sethyx@gmail.com>
+Submitted-at: Tue, 22 Jan 2013 13:12:53 +0000
+Reviewed-on: http://gerrit.sudoservers.com/5092
+Project: AOKP/device_samsung_d2usc
+Branch: refs/heads/jb-mr1
