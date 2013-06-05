@@ -1,12 +1,9 @@
-# system.prop for SCH-I535
+# system.prop for SCH-R530U
 #
 
 # cannot take spaces
 rild.libargs=-d /dev/smd0
 
-# Fields for custom RIL
-# MAX PROP NAME is 31 chars --|
-ro.telephony.ril_class=SamsungCDMAQualcommRIL
 ro.cdma.home.operator.numeric=311220
 ro.cdma.home.operator.alpha=U.S.Cellular
 ro.cdma.subscribe_on_ruim_ready=true
@@ -17,7 +14,12 @@ keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
 ro.config.svlte1x=true
-persist.radio.no_wait_for_card=1
+persist.radio.no_wait_for_card=0
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+ro.config.combined_signal=true
+ro.gsm.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
+persist.eons.enabled=false
 
 # hardware info
 ro.device.chipset=Qualcomm Snapdragon S4 MSM8960
