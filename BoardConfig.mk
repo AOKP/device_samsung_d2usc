@@ -28,6 +28,3 @@
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2usc
-
-# Kernel
-TARGET_KERNEL_CONFIG           := cyanogen_d2-r530_defconfig
